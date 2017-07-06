@@ -1,0 +1,9 @@
+id: small-room
+name: Small Room
+desc: A small, uncomfortable room. You feel very cramped and your neck hurts.
+items:
+  - rock
+exits:
+  west:
+    destination: large-room
+    desc: To the ${dir} is a hole leading back to the ${dest}.

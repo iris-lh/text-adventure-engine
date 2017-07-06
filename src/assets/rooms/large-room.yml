@@ -1,0 +1,14 @@
+id: large-room
+name: Large Room
+desc: This room is very large and spacious. You feel almost dizzy if you look at the ceiling.
+exits:
+  east:
+    destination: small-room
+    desc: You see a small, dark hole in the ${dir}ERN wall. Perhaps you could climb through.
+  west:
+    destination: dark-corridor
+    locked: true
+    key: rock
+    desc:
+      locked: To the ${dir} is a heavy looking door chained shut with a large rusty padlock. It looks like you could bash it loose.
+      unlocked: To the ${dir} is a heavy looking door.
