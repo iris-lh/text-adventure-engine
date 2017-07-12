@@ -8,8 +8,11 @@
   "license": "MIT",
   "dependencies": {
     "fs-jetpack": "^1.1.0",
+    "immutable": "^3.8.1",
     "js-yaml": "^3.8.4",
+    "lodash": "^4.17.4",
     "prompt": "^1.0.0",
+    "redux": "^3.7.1",
     "xterm": "^2.8.0"
   }
 }
